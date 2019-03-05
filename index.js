@@ -1,5 +1,5 @@
 const router = new VueRouter({
-  mode: 'history',
+  // mode: 'history',
   routes: [
     { path: '/', component: httpVueLoader('/pages/home.vue') },
     { path: '/work', component: httpVueLoader('/pages/work.vue') },
