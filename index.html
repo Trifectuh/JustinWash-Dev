@@ -6,15 +6,12 @@
 
 <body>
   <div id="app">
-    <router-link to="/">home</router-link>
-    <router-link to="/work">work</router-link>
-    <router-link to="/play">play</router-link>
-    <router-link to="/about">about</router-link>
-    <router-link to="/contact">contact</router-link>
+    <site-header></site-header>
+    <navigation></navigation>
     <router-view></router-view>
   </div>
 </body>
 
-<footer>
-  <script src="index.js"></script>
-</footer>
+<script src="index.js"></script>
+
+<link rel="stylesheet" type="text/css" href="index.css">
