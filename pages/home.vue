@@ -1,13 +1,14 @@
 <template>
-  <p>{{ greeting }}</p>
+<div class="home-page">
+  <section-header title="Perpetual Shred"></section-header>
+  <img src="/assets/images/perpetual-shred-banner.png"></img>
+</div>
 </template>
 
 <script>
 module.exports = {
-  data: function () {
-    return {
-      greeting: 'This is the home page'
-    }
+  components: {
+    'section-header': httpVueLoader('components/section-header.vue')
   }
 }
 </script>

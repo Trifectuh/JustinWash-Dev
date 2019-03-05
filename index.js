@@ -16,6 +16,7 @@ new Vue({
   el: '#app',
   components: {
     'site-header': httpVueLoader('/components/site-header.vue'),
-    'navigation': httpVueLoader('/components/navigation.vue')
+    'navigation': httpVueLoader('/components/navigation.vue'),
+    'section-header': httpVueLoader('/components/section-header.vue'),
   }
 })
