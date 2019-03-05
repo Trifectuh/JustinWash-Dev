@@ -10,13 +10,15 @@
 
 <style scoped>
 .navigation-bar {
-  background: lightblue;
+  color: white;
+  background: #000000;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   position: sticky;
-  top: 0
+  top: 0;
+  box-shadow: 0 8px 6px -6px #000;
 }
 
 .navigation-link {
@@ -25,5 +27,6 @@
   text-decoration: none;
   font-weight: bold;
   font-family: sans-serif;
+  color: white;
 }
 </style>

@@ -6,7 +6,8 @@
 
 <style scoped>
 .site-header {
-  background: lightyellow;
+  color: white;
+  background: #1a1a1a;
   width: 100%;
   font-size: 3em;
   font-weight: bold;
