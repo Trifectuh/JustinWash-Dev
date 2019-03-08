@@ -1,5 +1,5 @@
 <template>
-<a class="github-button" v-bind:href="url" target="_blank"><span>View on GitHub </span><img class="github-button-image" src="/assets/icons/github.svg"></a>
+<a class="github-button" v-bind:href="url" target="_blank"><div class="github-button-text">View on GitHub </div><img class="github-button-image" src="/assets/icons/github.svg"></a>
 </template>
 
 <script>
@@ -25,7 +25,7 @@ module.exports = {
   color: white;
 }
 
-span {
+.github-button-text {
   transform: translateY(2px);
 }
 

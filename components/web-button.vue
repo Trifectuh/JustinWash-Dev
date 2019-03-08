@@ -1,5 +1,5 @@
 <template>
-  <a class="web-button" v-bind:href="url" target="_blank"><span>View on the web </span><img class="web-button-image" src="/assets/icons/web.svg"></a>
+  <a class="web-button" v-bind:href="url" target="_blank"><div class="web-button-text">View on the web </div><img class="web-button-image" src="/assets/icons/web.svg"></a>
 </template>
 
 <script>
@@ -24,7 +24,7 @@ module.exports = {
   color: white;
 }
 
-span { 
+.web-button-text { 
   transform: translateY(2px);
 }
 

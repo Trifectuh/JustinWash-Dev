@@ -45,6 +45,7 @@ module.exports = {
 .section-button-block {
   display: flex;
   flex-direction: row;
+  margin-right: 10px;
 }
 
 </style>
