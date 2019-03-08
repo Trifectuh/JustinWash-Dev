@@ -11,7 +11,7 @@
 <style scoped>
 .navigation-bar {
   color: white;
-  background: #000000;
+  background: darkslategrey;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -19,6 +19,7 @@
   position: sticky;
   top: 0;
   box-shadow: 0 8px 6px -6px #000;
+  z-index: 1;
 }
 
 .navigation-link {
