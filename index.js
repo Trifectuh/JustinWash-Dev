@@ -1,5 +1,5 @@
+/* Routing */
 const router = new VueRouter({
-  // mode: 'history',
   routes: [
     { path: '/', component: httpVueLoader('/pages/home.vue') },
     { path: '/work', component: httpVueLoader('/pages/work.vue') },
@@ -11,6 +11,19 @@ const router = new VueRouter({
   ]
 })
 
+/* Directives */
+Vue.directive('scroll', {
+  inserted: function (el, binding) {
+    let f = function (evt) {
+      if (binding.value(evt, el)) {
+        window.removeEventListener('scroll', f)
+      }
+    }
+    window.addEventListener('scroll', f)
+  }
+})
+
+/* Create */
 new Vue({
   router,
   el: '#app',

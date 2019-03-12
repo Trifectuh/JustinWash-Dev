@@ -24,12 +24,9 @@
 
 <style scoped>
 	.section-header {
-		background: #1a1a1a;
+		background: #18121e;
 		color: white;
 		font-size: 2em;
-		font-weight: bold;
-		font-family: sans-serif;
-		padding-right: 20px;
 		text-align: center;
 		display: flex;
 		align-items: center;

@@ -1,86 +1,36 @@
 <template>
-	<div class="home-page">
-		<section-header
-			title="Perpetual Shred: Never-ending Gnar"
-			code-url="https://github.com/Trifectuh/Perpetual-Shred"
-			web-url="https://www.perpetualshred.com"
-		></section-header>
-		<div
-			class="section-banner"
-			style="background-image: url('/assets/images/perpetual-shred-banner.png');"
-		></div>
-		<section-detail
-			technologies="mongodb express angular node javascript typescript"
-		></section-detail>
-
-		<section-header
-			title="The Elite: GoldenEye 64 Speedrun Companion"
-			code-url="https://github.com/afterparty/the-elite"
-		></section-header>
-		<div
-			class="section-banner"
-			style="background-image: url('/assets/images/the-elite-banner.png');"
-		></div>
-		<section-detail
-			technologies="ionic cordova angular node typescript"
-		></section-detail>
-
-		<section-header
-			title="Cmder Runner: VSCode extension"
-			code-url="https://github.com/Trifectuh/Cmder-Runner"
-			web-url="https://marketplace.visualstudio.com/items?itemName=justinwash.cmderrunner"
-		></section-header>
-		<div
-			class="section-banner"
-			style="background-image: url('/assets/images/cmderrunner-banner.png');"
-		></div>
-		<section-detail technologies="vscode cmder typescript"></section-detail>
-
-		<section-header
-			title="Stifel.com"
-			web-url="https://www.stifel.com"
-		></section-header>
-		<div
-			class="section-banner"
-			style="background-image: url('/assets/images/stifel-banner.png');"
-		></div>
-		<section-detail technologies="dotnet sql csharp"></section-detail>
-
-		<section-header
-			title="TIC-80 Pro: VSCode extension"
-			code-url="https://github.com/Trifectuh/Cmder-Runner"
-			web-url="https://marketplace.visualstudio.com/items?itemName=justinwash.tic80-pro-vscode"
-		></section-header>
-		<div
-			class="section-banner"
-			style="background-image: url('/assets/images/tic80pro-vscode-banner.png');"
-		></div>
-		<section-detail technologies="vscode tic80 typescript"></section-detail>
+	<div class="long-page">
+		<p>{{ greeting }}</p>
+		<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque sit amet porttitor eget dolor morbi non. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla. Cursus in hac habitasse platea dictumst quisque sagittis. Ac turpis egestas maecenas pharetra convallis. Pellentesque habitant morbi tristique senectus et. Pretium aenean pharetra magna ac placerat vestibulum lectus. Mi bibendum neque egestas congue quisque egestas diam. Enim nunc faucibus a pellentesque sit. Varius sit amet mattis vulputate enim nulla aliquet. Habitant morbi tristique senectus et netus et malesuada. Et egestas quis ipsum suspendisse. Etiam tempor orci eu lobortis elementum nibh tellus. Mattis enim ut tellus elementum sagittis vitae. Enim neque volutpat ac tincidunt vitae semper quis lectus. Diam phasellus vestibulum lorem sed risus ultricies.
+		Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. At ultrices mi tempus imperdiet. Netus et malesuada fames ac. Mi proin sed libero enim sed faucibus turpis in eu. Phasellus faucibus scelerisque eleifend donec pretium. Ipsum consequat nisl vel pretium lectus quam id leo. Morbi tincidunt ornare massa eget egestas. Proin libero nunc consequat interdum varius. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada.
+		Tortor consequat id porta nibh venenatis. Eget nunc lobortis mattis aliquam. Id faucibus nisl tincidunt eget nullam non nisi est. Pulvinar elementum integer enim neque volutpat ac tincidunt. Purus in massa tempor nec feugiat. Quisque egestas diam in arcu cursus euismod quis viverra. Ultricies integer quis auctor elit sed vulputate mi. Nulla porttitor massa id neque aliquam vestibulum morbi. Vitae turpis massa sed elementum tempus egestas sed sed. Morbi tristique senectus et netus et malesuada fames. At consectetur lorem donec massa sapien faucibus et molestie. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Tristique senectus et netus et malesuada fames ac turpis egestas. Vel fringilla est ullamcorper eget. Tellus mauris a diam maecenas sed enim ut sem viverra. Risus nec feugiat in fermentum.
+		Integer enim neque volutpat ac tincidunt vitae semper quis lectus. Nunc mi ipsum faucibus vitae. Sit amet volutpat consequat mauris. Ullamcorper malesuada proin libero nunc consequat interdum. Consequat mauris nunc congue nisi vitae suscipit tellus mauris. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Vel quam elementum pulvinar etiam non. Ac ut consequat semper viverra nam libero justo laoreet. Volutpat diam ut venenatis tellus in metus vulputate eu. Commodo elit at imperdiet dui accumsan sit. Morbi blandit cursus risus at. Elementum facilisis leo vel fringilla est. Elit sed vulputate mi sit amet mauris. Ac odio tempor orci dapibus ultrices in iaculis. Rhoncus mattis rhoncus urna neque viverra. Fusce ut placerat orci nulla pellentesque dignissim.
+		Aliquet bibendum enim facilisis gravida neque convallis a. Nisl nunc mi ipsum faucibus vitae aliquet. Mauris vitae ultricies leo integer malesuada nunc. Dui vivamus arcu felis bibendum ut tristique et. Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Condimentum vitae sapien pellentesque habitant morbi tristique. Porta non pulvinar neque laoreet suspendisse interdum. Commodo nulla facilisi nullam vehicula ipsum a. Aliquam purus sit amet luctus venenatis. Amet massa vitae tortor condimentum lacinia quis vel eros. Malesuada fames ac turpis egestas. Id porta nibh venenatis cras. Sociis natoque penatibus et magnis. At imperdiet dui accumsan sit. Sit amet nisl suscipit adipiscing bibendum. Purus semper eget duis at tellus at urna condimentum mattis.
+		Et netus et malesuada fames ac. Volutpat est velit egestas dui id ornare. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis. Amet venenatis urna cursus eget nunc scelerisque. Eu non diam phasellus vestibulum lorem sed. Morbi non arcu risus quis varius. Elementum sagittis vitae et leo duis ut diam quam nulla. Mattis vulputate enim nulla aliquet porttitor. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet. Metus aliquam eleifend mi in nulla posuere sollicitudin. Vitae congue mauris rhoncus aenean vel elit. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod.
+		Id ornare arcu odio ut sem nulla pharetra diam. Id faucibus nisl tincidunt eget nullam non. Purus in mollis nunc sed id semper risus in hendrerit. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Vel orci porta non pulvinar neque laoreet. Vitae proin sagittis nisl rhoncus mattis rhoncus. Dolor morbi non arcu risus quis varius quam quisque. Vel facilisis volutpat est velit egestas dui. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper. Ultricies leo integer malesuada nunc vel risus commodo. Non nisi est sit amet facilisis magna etiam. Sit amet nisl purus in. Porttitor massa id neque aliquam vestibulum. Vestibulum sed arcu non odio euismod. Viverra maecenas accumsan lacus vel facilisis. Eu feugiat pretium nibh ipsum consequat nisl vel. Ullamcorper malesuada proin libero nunc consequat interdum varius sit amet. Vulputate dignissim suspendisse in est ante in. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus.
+		Tempor nec feugiat nisl pretium fusce id velit ut. Adipiscing commodo elit at imperdiet dui accumsan. In nulla posuere sollicitudin aliquam ultrices. Elit at imperdiet dui accumsan sit amet nulla facilisi. Ullamcorper dignissim cras tincidunt lobortis feugiat. Pretium aenean pharetra magna ac. Nunc mattis enim ut tellus. Nec ultrices dui sapien eget. Ullamcorper a lacus vestibulum sed arcu non odio. Vitae turpis massa sed elementum tempus egestas sed sed. Posuere urna nec tincidunt praesent semper feugiat. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Enim ut sem viverra aliquet eget sit amet tellus cras. Amet consectetur adipiscing elit pellentesque habitant morbi.
+		Dui id ornare arcu odio ut. Tempus quam pellentesque nec nam aliquam sem et tortor. Massa ultricies mi quis hendrerit dolor magna eget est lorem. Nec feugiat nisl pretium fusce id velit ut tortor. Vitae elementum curabitur vitae nunc sed velit dignissim sodales. Est pellentesque elit ullamcorper dignissim. Tempor orci eu lobortis elementum nibh tellus. Lorem mollis aliquam ut porttitor leo. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Mollis nunc sed id semper risus in. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. Odio ut sem nulla pharetra diam sit amet nisl. Vulputate enim nulla aliquet porttitor lacus luctus. Placerat in egestas erat imperdiet sed euismod nisi porta.
+		Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. In pellentesque massa placerat duis ultricies lacus sed. Ut sem viverra aliquet eget sit amet tellus cras. Ac placerat vestibulum lectus mauris. Porttitor rhoncus dolor purus non enim praesent elementum. Blandit libero volutpat sed cras ornare arcu dui vivamus. A lacus vestibulum sed arcu. Id porta nibh venenatis cras sed felis eget. Amet nisl suscipit adipiscing bibendum est. Non blandit massa enim nec dui. Eu sem integer vitae justo eget. A pellentesque sit amet porttitor eget dolor. Elementum facilisis leo vel fringilla est ullamcorper eget. Lacinia at quis risus sed vulputate odio ut. Scelerisque purus semper eget duis at tellus at. Blandit volutpat maecenas volutpat blandit aliquam etiam. Nunc vel risus commodo viverra.
 	</div>
 </template>
 
 <script>
 	module.exports = {
-		components: {
-			"section-header": httpVueLoader("components/section-header.vue"),
-			"section-detail": httpVueLoader("components/section-detail.vue")
+		data: function () {
+			return {
+				greeting: 'This is the home page'
+			}
 		}
-	};
+	}
 </script>
 
 <style scoped>
-	.home-page {
-		width: 100vw;
-	}
-
 	p {
 		font-size: 2em;
 		text-align: center;
 	}
 
-	.section-banner {
-		height: 340px;
-		background-position: top;
-		background-size: cover;
+	.long-page {
+		height: 200vh;
 	}
 </style>

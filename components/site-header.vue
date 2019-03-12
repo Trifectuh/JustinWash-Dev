@@ -1,18 +1,20 @@
 <template>
-	<div class="site-header">justin wash</div>
+	<router-link to="/" class="site-header">
+		<div>JUSTIN WASH</div>
+	</router-link>
 </template>
 
 <style scoped>
 	.site-header {
+		font-size: 2em;
+		margin-left: 24px;
+		text-decoration: none;
 		color: white;
-		background: #1a1a1a;
-		width: 100%;
-		font-size: 3em;
-		font-weight: bold;
-		font-family: sans-serif;
-		width: 100%;
-		text-align: center;
-		padding-top: 20px;
-		padding-bottom: 20px;
+		transition: 0.5s;
+	}
+
+	.site-header:hover {
+		color: #d9b310;
+		transition: 0.25s;
 	}
 </style>
