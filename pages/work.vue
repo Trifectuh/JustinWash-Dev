@@ -3,7 +3,7 @@
 		<div class="work-section">
 			<section-header
 				title="Perpetual Shred: Never-ending Gnar"
-				code-url="https://github.com/Trifectuh/Perpetual-Shred"
+				code-url="https://github.com/justinwash/Perpetual-Shred"
 				web-url="https://www.perpetualshred.com"
 			></section-header>
 			<div class="section-inner">
@@ -11,7 +11,9 @@
 					class="section-banner"
 					style="background-image: url('/assets/images/perpetual-shred-banner.png');"
 				></div>
-				<section-detail technologies="mongodb express angular node javascript typescript"></section-detail>
+				<section-detail
+					technologies="mongodb express angular node javascript typescript"
+				></section-detail>
 			</div>
 		</div>
 		<div class="work-section">
@@ -23,12 +25,14 @@
 				class="section-banner"
 				style="background-image: url('/assets/images/the-elite-banner.png');"
 			></div>
-			<section-detail technologies="ionic cordova angular node typescript"></section-detail>
+			<section-detail
+				technologies="ionic cordova angular node typescript"
+			></section-detail>
 		</div>
 		<div class="work-section">
 			<section-header
 				title="Cmder Runner: VSCode extension"
-				code-url="https://github.com/Trifectuh/Cmder-Runner"
+				code-url="https://github.com/justinwash/Cmder-Runner"
 				web-url="https://marketplace.visualstudio.com/items?itemName=justinwash.cmderrunner"
 			></section-header>
 			<div
@@ -38,14 +42,20 @@
 			<section-detail technologies="vscode cmder typescript"></section-detail>
 		</div>
 		<div class="work-section">
-			<section-header title="Stifel.com" web-url="https://www.stifel.com"></section-header>
-			<div class="section-banner" style="background-image: url('/assets/images/stifel-banner.png');"></div>
+			<section-header
+				title="Stifel.com"
+				web-url="https://www.stifel.com"
+			></section-header>
+			<div
+				class="section-banner"
+				style="background-image: url('/assets/images/stifel-banner.png');"
+			></div>
 			<section-detail technologies="dotnet sql csharp"></section-detail>
 		</div>
 		<div class="work-section">
 			<section-header
 				title="TIC-80 Pro: VSCode extension"
-				code-url="https://github.com/Trifectuh/Cmder-Runner"
+				code-url="https://github.com/justinwash/Cmder-Runner"
 				web-url="https://marketplace.visualstudio.com/items?itemName=justinwash.tic80-pro-vscode"
 			></section-header>
 			<div
@@ -86,5 +96,6 @@
 		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 		margin-bottom: 20px;
 		background: #18121e;
+		margin: 1rem;
 	}
 </style>

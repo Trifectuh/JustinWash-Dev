@@ -2,7 +2,10 @@
 	<div class="section-detail">
 		<div class="section-detail-technologies">
 			<div v-for="icon in icons" class="technology-icon-wrapper">
-				<img class="technology-icon" v-bind:src="'/assets/icons/technologies/' + icon + '.png'">
+				<img
+					class="technology-icon"
+					v-bind:src="'/assets/icons/technologies/' + icon + '.png'"
+				/>
 			</div>
 		</div>
 	</div>
@@ -11,16 +14,19 @@
 <script>
 	module.exports = {
 		props: ["platform", "technologies", "description"],
-		data: function () {
+		data: function() {
 			return {
-				icons: this.technologies.split(' ')
-			}
-		},
+				icons: this.technologies.split(" ")
+			};
+		}
 	};
 </script>
 
 <style scoped>
 	.section-detail {
+		justify-content: center;
+		align-items: center;
+		display: flex;
 		background: #18121e;
 		color: white;
 		font-family: sans-serif;
@@ -34,7 +40,6 @@
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-evenly;
-		margin-top: 20px;
 		width: 50%;
 	}
 
