@@ -1,6 +1,6 @@
 <template>
 	<div class="home-page">
-		<iframe src="http://www.perpetualshred.com"></iframe>
+		<iframe src="https://www.perpetualshred.com"></iframe>
 	</div>
 </template>
 
